@@ -5,19 +5,47 @@ header {
     font-family: "Impact";
     color: white;
 }
-
+header div img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
 body #menu {
     text-align: center;
 }
 
+body #menu button:hover {
+    background-color: #FFDC00;
+}
+
 .button1 {
-    background-color: lightgreen;
+    background-color: green;
     border: none;
     color: white;
     padding: 15px 32px;
     text-decoration: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
+}
+.button2 {
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;   
+}
+.button3 {
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;   
 }
 footer {
     background-color: green;
